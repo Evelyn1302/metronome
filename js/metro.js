@@ -144,7 +144,7 @@ function _pause(){
 }
 
 function _init(){
-    metronome_worker = new Worker("metro_worker.js");
+    metronome_worker = new Worker("js/metro_worker.js");
 
     metronome_worker.onmessage = function(web_clock) {
         if (web_clock.data == "tick"){                              // if the metronome is started
