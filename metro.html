@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<!--
+    Project 04 --- Metronome
+-->
+
+
+<html>
+    <head>
+        <title>Metronome</title>
+
+        <meta name="viewport" content="width = device-width">
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="styles/metro.css">
+        <link rel="stylesheet" href="styles/background.css">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="body" id="body">
+        <div class="header_name" id="name">
+            <span class="capital">W<span class="small">elcome!</span></span>
+        </div>
+
+        <div class="main" id="main">
+            <div class="one_div" id="minus_one">
+                <button class="one">&#45;1</button>
+            </div>
+    
+            <div class="five_div" id="minus_five">
+                <button class="five">&#45;5</button>
+            </div>
+    
+            <div class="main_metronome" id="main_metronome">
+                <div class="play_pause" id="play_pause">
+                    <button class="play" id="play">
+                        <span class="material-icons" id="play">play_arrow</span>
+                    </button>
+    
+                    <button class="pause" id="pause">
+                        <span class="material-icons" id="play">pause</span>
+                    </button>
+                </div>
+    
+                <div class="tempo_div" id="tempo_div">
+                    <span>
+                        <span class="tempo_number" id="tempo_number">60</span>
+                        <span class="bpm" id="bpm">b&#46;p&#46;m&#46;</span>
+                    </span>
+                </div>
+    
+                <div class="note_selection_div" id="note_selection_div">
+                    <button class="note_selection" id="note_selection">Crochet</button>
+            </div>
+    
+            <div class="five_div" id="plus_five">
+                <button class="five">&#43;5</button>
+            </div>
+    
+            <div class="one_div" id="plus_one">
+                <button class="one">&#43;1</button>
+            </div>
+        </div>
+
+        <div class="s1 circle_large"></div>
+        <div class="s2 circle_small"></div>
+        <div class="s3 circle_large"></div>
+        <div class="s4 circle_medium"></div>
+        <div class="s5 circle_small"></div>
+        <div class="s6 circle_small"></div>
+        <div class="s7 circle_large"></div>
+        <div class="s8 circle_medium"></div>
+        <div class="s9 circle_large"></div>
+        <div class="s10 circle_medium"></div>
+        <div class="s11 circle_small"></div>
+        <div class="s12 circle_small"></div>
+        <div class="s13 circle_medium"></div>
+        <div class="s14 circle_small"></div>
+        <div class="s15 circle_large"></div>
+        <div class="s16 circle_medium"></div>
+        <div class="s17 circle_small"></div>
+        <div class="s18 circle_small"></div>
+        <div class="s19 circle_large"></div>
+        <div class="s20 circle_medium"></div>
+        
+        <script src="js/metro.js"></script>
+        <script src="js/metro_controls.js"></script>
+    </body>
+</html>

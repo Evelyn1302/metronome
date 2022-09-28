@@ -1,0 +1,191 @@
+/*
+    Project 04
+    Background styling
+*/
+
+
+.circle_large{
+    width: 75px;
+    height: 75px;
+    border-radius: 200px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    z-index: 1;
+
+    animation: circle_l 20s linear infinite;
+}
+
+.circle_medium{
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    z-index: 2;
+
+    animation: circle_m 15s linear infinite;
+}
+
+.circle_small{
+    width: 25px;
+    height: 25px;
+    border-radius: 200px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0;
+    z-index: 3;
+
+    animation: circle_s 18s linear infinite;
+}
+
+.s1{
+    position: absolute;
+    left: 5%;
+    animation-delay: 500ms;
+}
+
+.s2{
+    position: absolute;
+    left: 8%;
+    animation-delay: 300ms;
+}
+
+.s3{
+    position: absolute;
+    left: 12%;
+    animation-delay: 8000ms;
+}
+
+.s4{
+    position: absolute;
+    left: 15%;
+    animation-delay: 1500ms;
+}
+
+.s5{
+    position: absolute;
+    left: 21%;
+    animation-delay: 80ms;
+}
+
+.s6{
+    position: absolute;
+    left: 29%;
+    animation-delay: 380ms;
+}
+
+.s7{
+    position: absolute;
+    left: 35%;
+    animation-delay: 4500ms;
+}
+
+.s8{
+    position: absolute;
+    left: 38%;
+    animation-delay: 20ms;
+}
+
+.s9{
+    position: absolute;
+    left: 44%;
+    animation-delay: 6000ms;
+}
+
+.s10{
+    position: absolute;
+    left: 51%;
+    animation-delay: 1650ms;
+}
+
+.s11{
+    position: absolute;
+    left: 55%;
+    animation-delay: 120ms;
+}
+
+.s12{
+    position: absolute;
+    left: 60%;
+    animation-delay: 2700ms;
+}
+
+.s13{
+    position: absolute;
+    left: 68%;
+    animation-delay: 2700ms;
+}
+
+.s14{
+    position: absolute;
+    left: 70%;
+    animation-delay: 1440ms;
+}
+
+.s15{
+    position: absolute;
+    left: 79%;
+    animation-delay: 100ms;
+}
+
+.s16{
+    position: absolute;
+    left: 83%;
+    animation-delay: 3060ms;
+}
+
+.s17{
+    position: absolute;
+    left: 87%;
+    animation-delay: 500ms;
+}
+
+.s18{
+    position: absolute;
+    left: 92%;
+    animation-delay: 80ms;
+}
+
+.s19{
+    position: absolute;
+    left: 93%;
+    animation-delay: 1500ms;
+}
+
+.s20{
+    position: absolute;
+    left: 25%;
+    animation-delay: 230ms;
+}
+
+@keyframes circle_l{
+    0%{
+        transform: translateY(40vh);
+        opacity: 0.1;
+    }
+    100%{
+        transform: translateY(-90vh);
+        opacity: 0.3;
+    }
+}
+
+@keyframes circle_m{
+    0%{
+        transform: translateY(40vh);
+        opacity: 0.1;
+    }
+    100%{
+        transform: translateY(-90vh);
+        opacity: 0.4;
+    }
+}
+
+@keyframes circle_s{
+    0%{
+        transform: translateY(40vh);
+        opacity: 0.1;
+    }
+    100%{
+        transform: translateY(-90vh);
+        opacity: 0.5;
+    }
+}

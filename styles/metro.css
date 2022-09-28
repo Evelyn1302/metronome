@@ -1,0 +1,173 @@
+/*
+    Project 04
+    Styling of all other things but background
+*/
+
+
+.body,
+.main_metronome,
+.one,
+.five{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header,
+.main,
+.play_pause,
+.tempo_div,
+.note_selection_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    background: linear-gradient(to top left, rgb(110, 155, 197), rgb(255, 255, 255));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    width: 100vw;
+    height: 100vh;
+    min-width: 500px;
+    min-height: 500px;
+
+    padding: 0px;
+    margin: 0px;
+    overflow: auto;
+}
+
+.header_name{
+    color: black;
+    font-family: 'Courgette';
+
+    padding: 0px;
+    margin: 0px 0px 50px 0px;
+}
+
+.capital{
+    font-size: 4.5rem;
+}
+
+.small{
+    font-size: 3rem;
+}
+
+.main_metronome{
+    background-color: rgba(195, 92, 106, 0.7);
+    color: black;
+
+    width: 49vw;
+    height: 49vw;
+    min-width: 245px;
+    min-height: 245px;
+    max-width: 343px;
+    max-height: 343px;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 500px;
+
+    font-family: 'Courgette';
+    margin: 0.5vw;
+
+    z-index: 10;
+}
+
+.one{
+    background-color: rgba(195, 92, 106, 0.5);
+    color: black;
+
+    width: 9vw;
+    height: 9vw;
+    min-width: 45px;
+    min-height: 45px;
+    max-width: 63px;
+    max-height: 63px;
+
+    border-width: 2px;
+    font-size: 1rem;
+    margin: 95px 0.5vw 0px 0.5vw;
+}
+
+.five{
+    background-color: rgba(195, 92, 106, 0.6);
+    color: black;
+
+    width: 14vw;
+    height: 14vw;
+    min-width: 70px;
+    min-height: 70px;
+    max-width: 98px;
+    max-height: 98px;
+
+    border-width: 3px;
+    font-size: 1.25rem;
+    margin: 80px 0.5vw 0px 0.5vw;
+}
+
+.one,
+.five{
+    font-family: 'Courgette';
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 200px;
+
+    z-index: 10;
+}
+
+.play,
+.pause{
+    background-color: rgb(255, 251, 199);
+    color: black;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 200px;
+    border-color: black;
+
+    font-family: 'Courgette';
+    font-size: 1rem;
+
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    margin: 3px;
+}
+
+.tempo_div{
+    margin: 10px 0px;
+}
+
+.tempo_number{
+    font-size: 5rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bpm{
+    font-size: 1.75rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.note_selection{
+    background-color: rgb(255, 251, 199);
+    color: black;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 20px;
+    border-color: black;
+
+    font-family: 'Courgette';
+    font-size: 1.2rem;
+
+    padding: 3px 8px;
+    margin: 3px 3px;
+}
