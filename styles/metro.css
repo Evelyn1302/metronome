@@ -118,6 +118,7 @@
     border-color: black;
     border-radius: 200px;
 
+    cursor: pointer;
     z-index: 10;
 }
 
@@ -138,6 +139,7 @@
     height: 50px;
     padding: 3px;
     margin: 3px;
+    cursor: pointer;
 }
 
 .tempo_div{
@@ -170,4 +172,5 @@
 
     padding: 3px 8px;
     margin: 3px 3px;
+    cursor: pointer;
 }
